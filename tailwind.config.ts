@@ -19,6 +19,10 @@ const config = {
       },
     },
     extend: {
+      spacing: {
+        '126': '31.5rem',
+        '84': '21rem',
+      },
       colors: {
         fill: {
           1: "rgba(255, 255, 255, 0.10)",
