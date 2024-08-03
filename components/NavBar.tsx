@@ -6,9 +6,9 @@ import Link from 'next/link';
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-  const sections = ['home', 'about', 'services', 'gallery', 'testimonials'];
+  const sections: string[] = ['home', 'about', 'services', 'gallery', 'testimonials'];
 
-  const handleLinkClick = (section) => {
+  const handleLinkClick = (section: string) => {
     const element = document.getElementById(section);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
