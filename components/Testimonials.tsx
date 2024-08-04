@@ -50,7 +50,7 @@ const Testimonials = () => {
               alt=''
               style={{ marginBottom: '-65px' }}
             />
-            <div className='flex flex-col items-center justify-center -mb-24 p-4 text-gray-600 bg-white rounded-md shadow-md w-80 h-80 transition-all duration-3000 ease-in-out relative'>
+            <div className='flex flex-col items-center justify-center -mb-24 p-4 text-gray-600 bg-white rounded-md shadow-md w-full max-w-xs md:max-w-md lg:max-w-lg h-80 transition-all duration-3000 ease-in-out relative'>
               <span className='absolute top-4 left-4 text-6xl'>“</span>
               <p className='max-w-sm text-center'>
                 {quote}

@@ -97,7 +97,7 @@ const About = () => {
                   alt=''
                 />
                 <div className='absolute bottom-0 transform translate-y-1/2 flex flex-col gap-1 items-center bg-white px-14 py-4 rounded-md'>
-                  <span className='text-[#F88109] text-2xl font-bold'>{member.name}</span>
+                  <span className='text-[#F88109]  font-bold'>{member.name}</span>
                   <span className='font-semibold'>{member.role}</span>
                 </div>
               </div>
