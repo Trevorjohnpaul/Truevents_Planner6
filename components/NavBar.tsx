@@ -29,7 +29,7 @@ const NavBar = () => {
                 alt='TruEvents logo'
                 className='size-[64px] max-xl:size-14'
               />
-              <h1 className='navbar-logo'>TRU<span className='text-[#FCA61F] text-4xl'>E</span>VENTS</h1>
+              <h1 className='navbar-logo'>TRU<span className='text-[#F88109] text-4xl z-15'>E</span>VENTS</h1>
             </Link>
           </div>
           <nav className='flex gap-4 font-semibold'>
@@ -58,7 +58,7 @@ const NavBar = () => {
           </button>
         </div>
         {isOpen && (
-          <nav className='fixed top-0 left-0 w-full h-full bg-white px-4 py-8'>
+          <nav className='fixed top-0 left-0 max-w-md h-full bg-[#F88109] px-4 py-8'>
             <div className='flex flex-col gap-6'>
               <Link href='#home' className='flex cursor-pointer items-center gap-1'>
                 <Image src='/assets/logo.jpeg' width={34} height={34} alt='TruEvents logo' />

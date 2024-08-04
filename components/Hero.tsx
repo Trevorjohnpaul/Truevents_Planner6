@@ -17,14 +17,14 @@ const Hero = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 6000); // Change image every 4 seconds
+    }, 6000); // Change image every 6 seconds
 
     return () => clearInterval(interval); // Cleanup interval on component unmount
   }, []);
 
   return (
     <section
-      className="start flex flex-col h-[750px] items-center text-white px-8 mb-16"
+      className="start flex flex-col h-screen md:h-[750px] items-center text-white px-4 md:px-8 mb-16"
       id="home"
       style={{
         backgroundImage: `url(${images[currentImageIndex]})`,
@@ -33,18 +33,17 @@ const Hero = () => {
         transition: 'background-image 1s ease-in-out' // Smooth transition
       }}
     >
-      <div className="w-full flex flex-col gap-8">
-        <div className="max-w-md flex flex-col gap-12 text-white">
-          <div className="flex flex-col font-semibold text-3xl">
-            <span style={{ height: '50px', display: 'inline-block' }} className="">Hello Fam Lets Celebrate</span>
-            <span className="">Your Events With True Vibes</span>
+      <div className="w-full flex flex-col gap-4 md:gap-8">
+        <div className="max-w-xs md:max-w-md flex flex-col gap-4 md:gap-12 text-white">
+          <div className="flex flex-col font-semibold text-2xl md:text-3xl">
+            <span className="inline-block">Hello Fam Lets Celebrate</span>
+            <span>Your Events With True Vibes</span>
           </div>
-          <p className="">
+          <p className="text-sm md:text-base">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti voluptates, modi, illum accusantium quis voluptas eum ad inventore aliquam, vel quos vitae. Ullam itaque ex officiis dicta modi expedita quam?
           </p>
-
           <a href='#about'>
-            <button className="button self-start text-xl rounded-md py-4 px-8 bg-[#FCA61F]">
+            <button className="button self-start text-sm md:text-xl rounded-md py-2 md:py-4 px-4 md:px-8 bg-[#F88109]">
               LEARN MORE
             </button>
           </a>

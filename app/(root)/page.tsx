@@ -8,13 +8,12 @@ import React from 'react'
 const Home = () => {
 
   return (
-    <div>
+    <div className=''>
        <Hero />
        <About />
        <Services />
-       <Testimonials />
        <Gallery />
-
+       <Testimonials />
     </div>
   )
 }

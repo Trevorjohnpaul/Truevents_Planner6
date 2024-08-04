@@ -6,7 +6,7 @@ const Gallery = () => {
     <section className='gallery flex justify-center items-center px-8 py-16' id='gallery'>
       <div className='flex flex-col'>
         <div className='flex flex-col gap-2 text-center mb-8'>
-          <span className='text-[#FCA61F] text-3xl font-bold'>Our Gallery</span>
+          <span className='text-[#F88109] text-3xl font-bold'>Our Gallery</span>
           <span className='text-gray-700 text-3xl font-semibold'>We Provide The Best Services for You Events</span>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, commodi quaerat? Voluptatibus tempora laboriosam a enim.</p>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>

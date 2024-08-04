@@ -12,7 +12,7 @@ const Footer = () => {
                     <div className='flex flex-col gap-4 px-8'>
                         <div className='grid grid-cols-2 gap-8 items-center w-full'>
                             <div className='flex flex-col gap-4'>
-                            <span className='title text-[#FF4500] text-3xl font-bold'>Get In Touch</span>
+                            <span className='title text-[#F88109] text-3xl font-bold'>Get In Touch</span>
                                 <span className='max-w-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, officia quae. Optio nisi est cum voluptatum nesciunt, magni asperiores accusamus</span>
                                 <div className='flex gap-2'>
                                     <Link href='https://www.instagram.com' target='_blank' rel='noopener noreferrer'>
@@ -33,11 +33,11 @@ const Footer = () => {
                                 </div>
                             </div>
                             <div className='grid grid-cols-2 gap-16 px-4'>
-                                <div className='flex flex-col text-[#FF4500] p-16 bg-[#080b14fa] rounded-md shadow-2xl items-center'>
+                                <div className='flex flex-col text-[#F88109] p-16 bg-[#080b14fa] rounded-md shadow-2xl items-center'>
                                     <FaPhone size={34} />
                                     Phone: +254742256396
                                 </div>
-                                <div className='flex flex-col text-[#FF4500] p-16 bg-[#080b14fa] rounded-md items-center'>
+                                <div className='flex flex-col text-[#F88109] p-16 bg-[#080b14fa] rounded-md items-center'>
                                     <FaEnvelope size={34} />
                                     Email: dokeyo390@gmail.com
                                 </div>

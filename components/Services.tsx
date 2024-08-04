@@ -7,7 +7,7 @@ const Services = () => {
   return (
     <section className='my-16 flex flex-col justify-center items-center w-full'>
         <div className='px-8 py-24 flex flex-col gap-4 justify-center items-center w-full'>
-            <span className='text-[#FCA61F] text-4xl font-bold'>Our Services</span>
+            <span className='text-[#F88109] text-4xl font-bold'>Our Services</span>
             <span className='text-gray-700 text-3xl mb-8 font-semibold'>We Offer The Best Services In The Country</span>
             <div className='flex flex-col gap-16 w-full px-24 '>
                 <div className='w-full px-8'>
@@ -22,9 +22,9 @@ const Services = () => {
                             />
                         </div>
                         <div className='flex flex-col gap-2 px-4 pt-6 bg-[#f8f8f6] rounded-md w-[470px]'>
-                            <div className='flex gap-4'>
-                                <FaGlassCheers size={34} className='text-[#FCA61F]' />
-                                <span className='text-[#FCA61F] text-3xl font-semibold'>Wedding Party</span>
+                            <div className='flex gap-4 text-[#F88109]'>
+                                <FaGlassCheers size={34} />
+                                <span className='text-3xl font-semibold'>Wedding Party</span>
                             </div>
                             <p className='max-w-md'>
                                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste voluptates corrupti blanditiis. Distinctio perspiciatis culpa iure mollitia. Labore rem esse, iure minus at qui optio, id laudantium hic officiis, incidunt sapiente earum a molestiae maiores quis delectus est alias quas natus perferendis? Nemo, laboriosam in.
@@ -35,9 +35,9 @@ const Services = () => {
                 <div className='w-full px-8'>
                     <div className='grid grid-cols-2 gap-16 w-full'>
                     <div className='flex flex-col gap-2 px-4 pt-6 bg-[#f8f8f6] rounded-md w-[470px]'>
-                            <div className='flex gap-4'>
-                                <FaGlassCheers size={34} className='text-[#FCA61F]' />
-                                <span className='text-[#FCA61F] text-3xl font-semibold'>Wedding Party</span>
+                            <div className='flex gap-4 text-[#F88109]'>
+                                <FaGlassCheers size={34} />
+                                <span className='text-3xl font-semibold'>Wedding Party</span>
                             </div>
                             <p className='max-w-md'>
                                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste voluptates corrupti blanditiis. Distinctio perspiciatis culpa iure mollitia. Labore rem esse, iure minus at qui optio, id laudantium hic officiis, incidunt sapiente earum a molestiae maiores quis delectus est alias quas natus perferendis? Nemo, laboriosam in.
@@ -66,9 +66,9 @@ const Services = () => {
                             />
                         </div>
                         <div className='flex flex-col gap-2 px-4 pt-6 bg-[#f8f8f6] rounded-md w-[470px]'>
-                            <div className='flex gap-4'>
-                                <FaGlassCheers size={34} className='text-[#FCA61F]' />
-                                <span className='text-[#FCA61F] text-3xl font-semibold'>Wedding Party</span>
+                            <div className='flex gap-4 text-[#F88109]'>
+                                <FaGlassCheers size={34} />
+                                <span className='text-3xl font-semibold'>Wedding Party</span>
                             </div>
                             <p className='max-w-md'>
                                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste voluptates corrupti blanditiis. Distinctio perspiciatis culpa iure mollitia. Labore rem esse, iure minus at qui optio, id laudantium hic officiis, incidunt sapiente earum a molestiae maiores quis delectus est alias quas natus perferendis? Nemo, laboriosam in.
@@ -91,27 +91,27 @@ const Services = () => {
             </div>
             <div className='flex justify-center w-[450px] h-[550px]'>
                 <div className='flex flex-col gap-4'>
-                    <span className='text-[#FCA61F] text-3xl font-bold'>How It Works</span>
+                    <span className='text-[#F88109] text-3xl font-bold'>How It Works</span>
                     <span className='text-gray-700 text-3xl font-semibold'>We Make Sure Planning & Decorations Simple</span>
                     <div className='flex flex-col gap-8'>
-                    <div className='flex flex-col gap-2'>
-                            <div className='flex gap-2'>
-                                <span><FaGlassCheers size={34} className='text-[#FCA61F]' /></span>
-                                <span className='pl-12 text-2xl'>Consultation</span>
+                        <div className='flex flex-col gap-2'>
+                            <div className='flex gap-4 text-[#F88109]'>
+                                <FaGlassCheers size={34} />
+                                <span className='text-3xl font-semibold'>Wedding Party</span>
                             </div>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis quo quasi ea facere itaque nemo repudiandae.</p>
                         </div>
                         <div className='flex flex-col gap-2'>
-                            <div className='flex gap-2'>
-                                <span><FaGlassCheers size={34} className='text-[#FCA61F]' /></span>
-                                <span className='pl-12 text-2xl'>Consultation</span>
+                            <div className='flex gap-4 text-[#F88109]'>
+                                <FaGlassCheers size={34} />
+                                <span className='text-3xl font-semibold'>Wedding Party</span>
                             </div>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis quo quasi ea facere itaque nemo repudiandae.</p>
                         </div>
                         <div className='flex flex-col gap-2'>
-                            <div className='flex gap-2'>
-                                <span><FaGlassCheers size={34} className='text-[#FCA61F]' /></span>
-                                <span className='pl-12 text-2xl'>Consultation</span>
+                            <div className='flex gap-4 text-[#F88109]'>
+                                <FaGlassCheers size={34} />
+                                <span className='text-3xl font-semibold'>Wedding Party</span>
                             </div>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis quo quasi ea facere itaque nemo repudiandae.</p>
                         </div>
