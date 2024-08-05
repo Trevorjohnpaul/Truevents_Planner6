@@ -16,7 +16,7 @@ const About = () => {
               alt=''
             />
             <Image
-              className='absolute top-[45%] right-[30%] transform -translate-y-1/2 translate-x-1/2 bg-white p-4 rounded-md h-[60%] md:h-[82%] object-cover'
+              className='absolute top-1/2 right-1/2 transform -translate-y-1/2 translate-x-1/2 bg-white p-4 rounded-md h-[60%] md:h-[70%] object-cover'
               src={'/assets/img9.jpeg'}
               width={442}
               height={542}
@@ -97,7 +97,7 @@ const About = () => {
                   alt=''
                 />
                 <div className='absolute bottom-0 transform translate-y-1/2 flex flex-col gap-1 items-center bg-white px-14 py-4 rounded-md'>
-                  <span className='text-[#F88109]  font-bold'>{member.name}</span>
+                  <span className='text-[#F88109] font-bold'>{member.name}</span>
                   <span className='font-semibold'>{member.role}</span>
                 </div>
               </div>
