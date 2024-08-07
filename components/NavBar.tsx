@@ -14,7 +14,8 @@ const NavBar = () => {
     if (element) {
       const navbarHeight = document.querySelector('section.fixed')?.clientHeight || 0;
       const elementPosition = element.getBoundingClientRect().top;
-      const offsetPosition = elementPosition + window.pageYOffset - navbarHeight;
+      const add = 1080;
+      const offsetPosition = elementPosition + window.pageYOffset - navbarHeight-add;
 
       window.scrollTo({
         top: offsetPosition,
