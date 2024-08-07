@@ -80,7 +80,7 @@ const Services = () => {
         </div>
         <div className='grid grid-cols-2 gap-12 py-8 pl-24 w-full' id='services'>
             <div className='px-16'>
-                <div className='w-full h-[550px] rounded-md overflow-hidden relative'>
+                <div className='w-full h-[550px] z-35 rounded-md overflow-hidden relative'>
                     <Image
                         src={'/assets/img7.jpeg'}
                         layout='fill'

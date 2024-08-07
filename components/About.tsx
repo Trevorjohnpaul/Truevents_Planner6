@@ -51,30 +51,32 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className='experience my-16 text-white text-2xl font-semibold justify-center items-center' id='Experience'>
-          <div className="achievement flex flex-col items-center">
-            <FaUsers size={40} className='text-[#F88109]' />
-            <div className="circle">10,000+</div>
-            <span>Customers</span>
-            <span>Served</span>
-          </div>
-          <div className="achievement flex flex-col items-center">
-            <FaTasks size={40} className='text-[#F88109]' />
-            <div className="circle">80,000+</div>
-            <span>Projects</span>
-            <span>Done</span>
-          </div>
-          <div className="achievement flex flex-col items-center">
-            <FaUserFriends size={40} className='text-[#F88109]' />
-            <div className="circle">27</div>
-            <span>Team</span>
-            <span>Size</span>
-          </div>
-          <div className="achievement flex flex-col items-center">
-            <FaMapMarkerAlt size={40} className='text-[#F88109]' />
-            <div className="circle">27</div>
-            <span>Locations</span>
-            <span>Serviced</span>
+        <div className='experience-wrapper justify-center items-center'>
+          <div className='experience my-16 text-white text-2xl font-semibold' id='Experience'>
+            <div className="achievement flex flex-col items-center gap-2">
+              <FaUsers size={40} className='text-[#F88109]' />
+              <div className="circle">10,000+</div>
+              <span>Customers</span>
+              <span>Served</span>
+            </div>
+            <div className="achievement flex flex-col items-center">
+              <FaTasks size={40} className='text-[#F88109]' />
+              <div className="circle">80,000+</div>
+              <span>Projects</span>
+              <span>Done</span>
+            </div>
+            <div className="achievement flex flex-col items-center">
+              <FaUserFriends size={40} className='text-[#F88109]' />
+              <div className="circle">27</div>
+              <span>Team</span>
+              <span>Size</span>
+            </div>
+            <div className="achievement flex flex-col items-center">
+              <FaMapMarkerAlt size={40} className='text-[#F88109]' />
+              <div className="circle">27</div>
+              <span>Locations</span>
+              <span>Serviced</span>
+            </div>
           </div>
         </div>
         <div className='flex flex-col gap-8 mt-8 px-8'>

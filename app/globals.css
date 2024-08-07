@@ -10,6 +10,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -20,6 +21,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 code {
@@ -37,6 +39,7 @@ code {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
+
 .glassmorphism {
   background: rgba(255, 255, 255, 0.25);
   backdrop-filter: blur(4px);
@@ -95,12 +98,24 @@ code {
 }
 
 .experience {
-  @apply no-scrollbar flex w-full flex-row px-0 max-xl:max-h-screen max-xl:overflow-y-scroll bg-cover bg-center items-center justify-center gap-20 h-80 mb-32 bg-[url('/assets/img8.jpeg')];
+  @apply no-scrollbar flex flex-row px-0 w-[100%] max-xl:max-h-screen max-xl:overflow-y-scroll bg-cover bg-center items-center justify-center gap-20 h-80 mb-32 bg-[url('/assets/img8.jpeg')];
 }
 
 
 .achievement {
-  @apply flex flex-col items-center mb-16;
+  @apply flex flex-col items-center text-center mb-16;
+}
+
+.experience-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+  background-image: url('/path-to-your-background-image.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 0;
 }
 
 .circle {
@@ -123,6 +138,13 @@ code {
 .achievement span:nth-of-type(2){
   color: var(--orange);
   
+}
+
+@media (max-width: 768px) {
+  .experience {
+    transform: scale(0.8);
+    transform-origin: center;
+  }
 }
 
 .testimonial1 {
