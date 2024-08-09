@@ -98,7 +98,7 @@ code {
 }
 
 .experience {
-  @apply no-scrollbar flex flex-row px-0 w-[100%] max-xl:max-h-screen max-xl:overflow-y-scroll bg-cover bg-center items-center justify-center gap-20 h-80 mb-32 bg-[url('/assets/img8.jpeg')];
+  @apply no-scrollbar flex flex-row gap-4 p-2 w-full max-xl:max-h-screen max-xl:overflow-y-scroll items-center justify-center h-80 mb-32;
 }
 
 
@@ -112,7 +112,7 @@ code {
   align-items: center;
   width: 100%;
   overflow: hidden;
-  background-image: url('/path-to-your-background-image.jpg');
+  background-image: url('/assets/img8.jpeg');
   background-size: cover;
   background-position: center;
   padding: 0;
@@ -120,6 +120,7 @@ code {
 
 .circle {
   @apply w-24 h-24 bg-white rounded-full relative flex items-center justify-center text-2xl font-bold mb-8 text-black-1;
+  background-image: linear-gradient(to bottom, #87e6fb 0%, #ffc05c 100%);
 }
 
 .circle::before{
@@ -133,11 +134,6 @@ code {
   position: absolute;
   z-index: -1;
   box-shadow: var(--boxShadow);
-}
-
-.achievement span:nth-of-type(2){
-  color: var(--orange);
-  
 }
 
 @media (max-width: 768px) {

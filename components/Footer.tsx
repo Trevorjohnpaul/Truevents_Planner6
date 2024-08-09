@@ -22,12 +22,12 @@ const Footer = () => {
                                     ))}
                                 </div>
                             </div>
-                            <div className='flex flex-col sm:grid sm:grid-cols-2 gap-4 sm:gap-16 px-0 sm:px-4 mt-4 sm:mt-0'>
+                            <div className='flex flex-col sm:grid sm:grid-cols-2 gap-4 sm:gap-8 px-0 mt-4 sm:mt-0'>
                                 {[
                                     { icon: FaPhone, text: 'Phone: +254742256396' },
                                     { icon: FaEnvelope, text: 'Email: dokeyo390@gmail.com' }
                                 ].map(({ icon: Icon, text }, index) => (
-                                    <div key={index} className='flex flex-col text-[#F88109] p-4 sm:p-16 bg-[#080b14fa] rounded-md shadow-2xl items-center text-center'>
+                                    <div key={index} className='flex flex-col text-[#F88109] p-4 sm:p-16 bg-[#020308fa] rounded-md shadow-lg items-center text-center'>
                                         <Icon size={24} className='mb-2' />
                                         <span className='text-xs sm:text-sm'>{text}</span>
                                     </div>

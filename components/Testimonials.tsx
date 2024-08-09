@@ -33,7 +33,7 @@ const Testimonials = () => {
   const { image, quote, name } = testimonialsData[currentTestimonial];
 
   return (
-    <section className='h-[750px] text-white mt-16 py-16' id="testimonials">
+    <section className='h-screen text-white mt-16 py-16' id="testimonials">
       <div className='testimonial1 flex flex-col items-center justify-center py-8 px-8 mb-16'>
         <div className='flex flex-col gap-4 items-center justify-center mb-16'>
           <span className='text-[#F88109] text-4xl font-bold'>Testimonials</span>

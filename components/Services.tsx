@@ -21,7 +21,7 @@ const Services = () => {
                                 alt=''
                             />
                         </div>
-                        <div className='flex flex-col gap-2 px-4 pt-6 bg-[#f8f8f6] rounded-md w-[470px]'>
+                        <div className='flex flex-col gap-2 px-4 pt-6 bg-[#f8f8f6] rounded-md w-[510px]'>
                             <div className='flex gap-4 text-[#F88109]'>
                                 <FaGlassCheers size={34} />
                                 <span className='text-3xl font-semibold'>Wedding Party</span>
@@ -34,7 +34,7 @@ const Services = () => {
                 </div>
                 <div className='w-full px-8'>
                     <div className='grid grid-cols-2 gap-16 w-full'>
-                    <div className='flex flex-col gap-2 px-4 pt-6 bg-[#f8f8f6] rounded-md w-[470px]'>
+                    <div className='flex flex-col gap-2 px-4 pt-6 bg-[#f8f8f6] rounded-md w-[510px]'>
                             <div className='flex gap-4 text-[#F88109]'>
                                 <FaGlassCheers size={34} />
                                 <span className='text-3xl font-semibold'>Wedding Party</span>
@@ -65,7 +65,7 @@ const Services = () => {
                                 alt=''
                             />
                         </div>
-                        <div className='flex flex-col gap-2 px-4 pt-6 bg-[#f8f8f6] rounded-md w-[470px]'>
+                        <div className='flex flex-col gap-2 px-4 pt-6 bg-[#f8f8f6] rounded-md w-[510px]'>
                             <div className='flex gap-4 text-[#F88109]'>
                                 <FaGlassCheers size={34} />
                                 <span className='text-3xl font-semibold'>Wedding Party</span>

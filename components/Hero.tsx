@@ -24,7 +24,7 @@ const Hero = () => {
 
   return (
     <section
-      className="start flex flex-col h-screen md:h-[750px] items-center text-white px-4 md:px-8 mb-16"
+      className="start flex flex-col h-screen justify-center items-center text-white px-4 md:px-8 mb-16"
       id="home"
       style={{
         backgroundImage: `url(${images[currentImageIndex]})`,
@@ -34,7 +34,7 @@ const Hero = () => {
       }}
     >
       <div className="w-full flex flex-col gap-4 md:gap-8">
-        <div className="max-w-xs md:max-w-md flex flex-col gap-4 md:gap-12 text-white">
+        <div className="max-w-xs md:max-w-md flex flex-col gap-4 md:gap-12 md:mt-16 text-white">
           <div className="flex flex-col font-semibold text-2xl md:text-3xl">
             <span className="inline-block">Hello Fam Lets Celebrate</span>
             <span>Your Events With True Vibes</span>

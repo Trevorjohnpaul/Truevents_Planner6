@@ -16,7 +16,7 @@ const About = () => {
               alt=''
             />
             <Image
-              className='absolute top-1/2 right-1/2 transform -translate-y-1/2 translate-x-1/2 bg-white p-4 rounded-md h-[60%] md:h-[70%] object-cover'
+              className='absolute top-1/2 right-1/2 transform -translate-y-1/2 translate-x-1/2 bg-white p-4 h-[60%] md:h-[70%] object-cover'
               src={'/assets/img9.jpeg'}
               width={442}
               height={542}
@@ -53,23 +53,29 @@ const About = () => {
         </div>
         <div className='experience-wrapper justify-center items-center'>
           <div className='experience my-16 text-white text-2xl font-semibold' id='Experience'>
-            <div className="achievement flex flex-col items-center gap-2">
+            <div className="achievement flex flex-col items-center">
               <FaUsers size={40} className='text-[#F88109]' />
               <div className="circle">10,000+</div>
-              <span>Customers</span>
-              <span>Served</span>
+              <div className='flex flex-col'>
+                <span>Customers</span>
+                <span>Served</span>
+              </div>
             </div>
             <div className="achievement flex flex-col items-center">
               <FaTasks size={40} className='text-[#F88109]' />
               <div className="circle">80,000+</div>
-              <span>Projects</span>
-              <span>Done</span>
+              <div className='flex flex-col'>
+                <span>Customers</span>
+                <span>Served</span>
+              </div>
             </div>
             <div className="achievement flex flex-col items-center">
               <FaUserFriends size={40} className='text-[#F88109]' />
               <div className="circle">27</div>
-              <span>Team</span>
-              <span>Size</span>
+              <div className='flex flex-col'>
+                <span>Customers</span>
+                <span>Served</span>
+              </div>
             </div>
             <div className="achievement flex flex-col items-center">
               <FaMapMarkerAlt size={40} className='text-[#F88109]' />
