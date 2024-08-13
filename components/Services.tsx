@@ -5,14 +5,14 @@ import { FaHeart, FaGlassCheers, FaComments, FaClipboardList } from 'react-icons
 
 const Services = () => {
   return (
-    <section className='my-16 flex flex-col justify-center items-center w-full'>
+    <section className='my-16 flex flex-col justify-center items-center w-full' id="services">
         <div className='px-8 py-24 flex flex-col gap-4 justify-center items-center w-full'>
             <span className='text-[#F88109] text-4xl font-bold'>Our Services</span>
             <span className='text-gray-700 text-3xl mb-8 font-semibold'>We Offer The Best Services In The Country</span>
             <div className='flex flex-col gap-16 w-full px-24 '>
                 <div className='w-full px-8'>
-                    <div className='grid grid-cols-2 gap-8 w-full'>
-                        <div>
+                    <div className='grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 w-full'>
+                        <div className='order-1 md:order-none'>
                             <Image
                                 className='rounded-md h-126 w-126 object-cover'
                                 src={'/assets/img1.jpeg'}
@@ -21,7 +21,7 @@ const Services = () => {
                                 alt=''
                             />
                         </div>
-                        <div className='flex flex-col gap-2 px-4 pt-6 bg-[#f8f8f6] rounded-md w-[510px]'>
+                        <div className='flex flex-col gap-2 px-4 pt-4 md:pt-6 bg-[#f8f8f6] rounded-md w-full md:w-[510px]'>
                             <div className='flex gap-4 text-[#F88109]'>
                                 <FaGlassCheers size={34} />
                                 <span className='text-3xl font-semibold'>Wedding Party</span>
@@ -33,8 +33,8 @@ const Services = () => {
                     </div>
                 </div>
                 <div className='w-full px-8'>
-                    <div className='grid grid-cols-2 gap-16 w-full'>
-                    <div className='flex flex-col gap-2 px-4 pt-6 bg-[#f8f8f6] rounded-md w-[510px]'>
+                    <div className='grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 w-full'>
+                        <div className='flex flex-col gap-2 px-4 pt-4 md:pt-6 bg-[#f8f8f6] rounded-md w-full md:w-[510px]'>
                             <div className='flex gap-4 text-[#F88109]'>
                                 <FaGlassCheers size={34} />
                                 <span className='text-3xl font-semibold'>Wedding Party</span>
@@ -55,7 +55,7 @@ const Services = () => {
                     </div>
                 </div>
                 <div className='w-full px-8'>
-                    <div className='grid grid-cols-2 gap-16 w-full'>
+                    <div className='grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 w-full'>
                         <div>
                             <Image
                                 className='rounded-md h-126 w-126 object-cover'
@@ -65,7 +65,7 @@ const Services = () => {
                                 alt=''
                             />
                         </div>
-                        <div className='flex flex-col gap-2 px-4 pt-6 bg-[#f8f8f6] rounded-md w-[510px]'>
+                        <div className='flex flex-col gap-2 px-4 pt-4 md:pt-6 bg-[#f8f8f6] rounded-md w-full md:w-[510px]'>
                             <div className='flex gap-4 text-[#F88109]'>
                                 <FaGlassCheers size={34} />
                                 <span className='text-3xl font-semibold'>Wedding Party</span>
@@ -78,46 +78,54 @@ const Services = () => {
                 </div>
             </div>
         </div>
-        <div className='grid grid-cols-2 gap-12 py-8 pl-24 w-full' id='services'>
-            <div className='px-16'>
-                <div className='w-full h-[550px] z-35 rounded-md overflow-hidden relative'>
-                    <Image
-                        src={'/assets/img7.jpeg'}
-                        layout='fill'
-                        objectFit='cover'
-                        alt=''
-                    />
+        <div className="w-full py-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 px-4 md:px-8 lg:px-24">
+                <div className="w-full h-[300px] md:h-[550px] rounded-md overflow-hidden relative">
+                <Image
+                    src={'/assets/img7.jpeg'}
+                    layout='fill'
+                    objectFit='cover'
+                    alt=''
+                />
                 </div>
-            </div>
-            <div className='flex justify-center w-[450px] h-[550px]'>
-                <div className='flex flex-col gap-4'>
-                    <span className='text-[#F88109] text-3xl font-bold'>How It Works</span>
-                    <span className='text-gray-700 text-3xl font-semibold'>We Make Sure Planning & Decorations Simple</span>
-                    <div className='flex flex-col gap-8'>
-                        <div className='flex flex-col gap-2'>
-                            <div className='flex gap-4 text-[#F88109]'>
-                                <FaGlassCheers size={34} />
-                                <span className='text-3xl font-semibold'>Wedding Party</span>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis quo quasi ea facere itaque nemo repudiandae.</p>
-                        </div>
-                        <div className='flex flex-col gap-2'>
-                            <div className='flex gap-4 text-[#F88109]'>
-                                <FaGlassCheers size={34} />
-                                <span className='text-3xl font-semibold'>Wedding Party</span>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis quo quasi ea facere itaque nemo repudiandae.</p>
-                        </div>
-                        <div className='flex flex-col gap-2'>
-                            <div className='flex gap-4 text-[#F88109]'>
-                                <FaGlassCheers size={34} />
-                                <span className='text-3xl font-semibold'>Wedding Party</span>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis quo quasi ea facere itaque nemo repudiandae.</p>
-                        </div>
+                <div className="flex flex-col justify-center md:w-full md:h-[550px] gap-4">
+                <span className="text-[#F88109] text-2xl md:text-3xl font-bold">
+                    How It Works
+                </span>
+                <span className="text-gray-700 text-xl md:text-3xl font-semibold">
+                    We Make Sure Planning & Decorations Simple
+                </span>
+                <div className="flex flex-col gap-4 md:gap-8">
+                    <div className="flex flex-col gap-2">
+                    <div className="flex gap-2 md:gap-4 text-[#F88109]">
+                        <FaGlassCheers size={24} className='md:size={34}' />
+                        <span className="text-xl md:text-3xl font-semibold">Wedding Party</span>
+                    </div>
+                    <p className="text-sm md:text-base">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis quo quasi ea facere itaque nemo repudiandae.
+                    </p>
+                    </div>
+                    <div className="flex flex-col gap-2">
+                    <div className="flex gap-2 md:gap-4 text-[#F88109]">
+                        <FaGlassCheers size={24} className='md:size={34}' />
+                        <span className="text-xl md:text-3xl font-semibold">Birthday Celebration</span>
+                    </div>
+                    <p className="text-sm md:text-base">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis quo quasi ea facere itaque nemo repudiandae.
+                    </p>
+                    </div>
+                    <div className="flex flex-col gap-2">
+                    <div className="flex gap-2 md:gap-4 text-[#F88109]">
+                        <FaGlassCheers size={24} className='md:size={34}' />
+                        <span className="text-xl md:text-3xl font-semibold">Corporate Events</span>
+                    </div>
+                    <p className="text-sm md:text-base">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis quo quasi ea facere itaque nemo repudiandae.
+                    </p>
                     </div>
                 </div>
             </div>
+        </div>
         </div>
         <div className='flex gap-4 justify-center w-full mt-8 px-8'>
             <Image
