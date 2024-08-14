@@ -5,9 +5,9 @@ import { FaUsers, FaTasks, FaUserFriends, FaMapMarkerAlt } from 'react-icons/fa'
 const About = () => {
   return (
     <section className='my-16 py-16' id='about'>
-      <div className='flex flex-col'>
+      <div className='flex flex-col items-center justify-center'>
         <div className='grid grid-cols-1 md:grid-cols-2 h-auto md:h-[95vh] mx-4 md:mx-8 px-4 md:px-16 gap-4 md:gap-8 mb-8'>
-          <div className='relative h-[50vh] md:h-[95vh]'>
+          <div className='relative h-[50vh] md:h-[95vh] flex justify-center items-center'>
             <Image
               className='rounded-md z-0 h-full md:h-[90%] object-cover'
               src={'/assets/img16.jpeg'}
@@ -23,7 +23,7 @@ const About = () => {
               alt=''
             />
           </div>
-          <div className='flex flex-col gap-4 h-auto md:h-[95vh]'>
+          <div className='flex flex-col gap-4 h-auto md:h-[95vh] items-center justify-center text-center md:text-left md:items-start md:justify-start'>
             <span className='text-[#F88109] text-3xl font-bold'>About TruEvents</span>
             <div className='flex flex-col text-gray-700 text-2xl md:text-3xl font-semibold'>
               <span>We Are The Best Events Planner</span>
@@ -34,7 +34,7 @@ const About = () => {
             </p>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
               <div className='pb-0 pr-16 h-auto md:h-[80vh]'>
-                <div className='flex flex-col gap-8 rounded-md items-center bg-[#f8f8f6] px-2 py-16 shadow-lg'>
+                <div className='flex flex-col gap-8 rounded-md items-center bg-[#f8f8f6] px-16 py-16 shadow-lg'>
                   <FaTasks size={40} className='text-[#F88109]' />
                   <span className='text-4xl font-semibold'>5+</span>
                   <span className='font-semibold'>Years In Business</span>
@@ -51,8 +51,8 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className='experience-wrapper justify-center items-center'>
-          <div className='experience my-16 text-white text-2xl font-semibold' id='Experience'>
+        <div className='experience-wrapper flex justify-center items-center'>
+          <div className='experience my-16 text-white text-2xl font-semibold text-center' id='Experience'>
             <div className="achievement flex flex-col items-center">
               <FaUsers size={40} className='text-[#F88109]' />
               <div className="circle">10,000+</div>

@@ -11,7 +11,7 @@ const ibmPlexSerif = IBM_Plex_Serif({
 
 export const metadata: Metadata = {
   title: "TruEvents",
-  description: "Amordern event platform for everyone",
+  description: "A mordern event platform for everyone",
   icons: {
     icon: '/assets/logo.jpeg'
   }

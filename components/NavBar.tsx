@@ -14,8 +14,7 @@ const NavBar = () => {
     if (element) {
       const navbarHeight = document.querySelector('section.fixed')?.clientHeight || 0;
       const elementPosition = element.getBoundingClientRect().top;
-      const add = 1080;
-      const offsetPosition = elementPosition + window.pageYOffset - navbarHeight-add;
+      const offsetPosition = elementPosition + window.pageYOffset - navbarHeight;
 
       window.scrollTo({
         top: offsetPosition,
@@ -56,10 +55,10 @@ const NavBar = () => {
             <Link href='#home' className='flex cursor-pointer items-center gap-2'>
               <Image
                 src='/assets/logo.jpeg'
-                width={54}
-                height={54}
+                width={104}
+                height={84}
                 alt='TruEvents logo'
-                className='size-[64px] max-xl:size-14'
+                className='size-[94px] max-xl:size-44'
               />
               <h1 className='navbar-logo'>TRU<span className='text-[#F88109] text-4xl z-15'>E</span>VENTS</h1>
             </Link>

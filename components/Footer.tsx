@@ -27,9 +27,12 @@ const Footer = () => {
                                     { icon: FaPhone, text: 'Phone: +254742256396' },
                                     { icon: FaEnvelope, text: 'Email: dokeyo390@gmail.com' }
                                 ].map(({ icon: Icon, text }, index) => (
-                                    <div key={index} className='flex flex-col text-[#F88109] p-4 sm:p-16 bg-[#020308fa] rounded-md shadow-lg items-center text-center'>
-                                        <Icon size={24} className='mb-2' />
-                                        <span className='text-xs sm:text-sm'>{text}</span>
+                                    <div 
+                                    key={index} 
+                                    className='flex flex-col text-[#F88109] p-4 md:p-8 sm:p-6 bg-[#020308fa] rounded-md shadow-lg items-center text-center'
+                                    >
+                                    <Icon size={24} className='mb-2' />
+                                    <span className='text-base sm:text-sm'>{text}</span>
                                     </div>
                                 ))}
                             </div>
