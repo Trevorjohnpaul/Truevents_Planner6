@@ -11,16 +11,20 @@ const Services = () => {
         <div className='flex flex-col gap-16 w-full px-4 lg:px-24'>
           <div className='w-full'>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 w-full items-center'>
-              <div className='order-1 md:order-none flex justify-center'>
+              <div className='order-1 md:order-none flex justify-center relative z-10'>
                 <Image
                   className='rounded-md object-cover'
                   src={'/assets/img1.jpeg'}
-                  width={384}
+                  width={584}
                   height={584}
                   alt=''
                 />
+                <div className='absolute bottom-0 left-0 bg-orange-500 h-32 w-full z-0'></div>
               </div>
-              <div className='flex flex-col gap-2 px-4 pt-4 md:pt-6 bg-[#f8f8f6] rounded-md w-full md:w-[510px] justify-center'>
+              <div 
+                className='flex flex-col gap-2 px-4 pt-4 md:pt-6 bg-[#f8f8f6] rounded-md w-full md:w-[510px] justify-center'
+                style={{ height: '584' }}
+              >
                 <div className='flex gap-4 text-[#F88109] justify-center md:justify-start'>
                   <FaGlassCheers size={34} />
                   <span className='text-3xl font-semibold'>Wedding Party</span>
@@ -46,7 +50,7 @@ const Services = () => {
                 <Image
                   className='rounded-md object-cover'
                   src={'/assets/img1.jpeg'}
-                  width={384}
+                  width={584}
                   height={584}
                   alt=''
                 />
@@ -59,7 +63,7 @@ const Services = () => {
                 <Image
                   className='rounded-md object-cover'
                   src={'/assets/img1.jpeg'}
-                  width={384}
+                  width={584}
                   height={584}
                   alt=''
                 />

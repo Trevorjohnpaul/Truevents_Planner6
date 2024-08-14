@@ -14,7 +14,7 @@ const NavBar = () => {
     if (element) {
       const navbarHeight = document.querySelector('section.fixed')?.clientHeight || 0;
       const elementPosition = element.getBoundingClientRect().top;
-      const offsetPosition = elementPosition + window.pageYOffset - navbarHeight;
+      const offsetPosition = elementPosition + window.scrollY - navbarHeight - 380;
 
       window.scrollTo({
         top: offsetPosition,
@@ -55,12 +55,11 @@ const NavBar = () => {
             <Link href='#home' className='flex cursor-pointer items-center gap-2'>
               <Image
                 src='/assets/logo.jpeg'
-                width={104}
+                width={250}
                 height={84}
                 alt='TruEvents logo'
-                className='size-[94px] max-xl:size-44'
+                // className='size-[100px] max-xl:size-24'
               />
-              <h1 className='navbar-logo'>TRU<span className='text-[#F88109] text-4xl z-15'>E</span>VENTS</h1>
             </Link>
           </div>
           <nav className='flex gap-4 font-semibold'>
@@ -81,8 +80,8 @@ const NavBar = () => {
       {/* Mobile Navigation */}
       <section className='w-full md:hidden fixed bg-white bg-cover bg-center z-50'>
         <div className='flex justify-between items-center px-4 py-4'>
-          <Link href='#home' className='flex cursor-pointer items-center gap-1'>
-            <Image src='/assets/logo.jpeg' width={34} height={34} alt='TruEvents logo' />
+          <Link href='#home' className='flex cursor-pointer items-center py-0'>
+            <Image src='/assets/logo.jpeg' width={164} height={34} alt='TruEvents logo' />
           </Link>
           <button onClick={() => setIsOpen(!isOpen)} className='cursor-pointer'>
             <Image src='/icons/hamburger.svg' width={30} height={30} alt='menu' />
@@ -92,8 +91,7 @@ const NavBar = () => {
           <nav className='fixed top-0 left-0 max-w-md h-[50vh] rounded-3xl bg-[#f8f8f6] px-4 py-8'>
             <div className='flex flex-col gap-6'>
               <Link href='#home' className='flex cursor-pointer items-center gap-1'>
-                <Image src='/assets/logo.jpeg' width={34} height={34} alt='TruEvents logo' />
-                <h1 className='text-26 font-ibm-plex-serif font-bold text-black-1'>TruEvents</h1>
+                <Image src='/assets/logo.jpeg' width={164} height={34} alt='TruEvents logo' />
               </Link>
               {sections.map((section) => (
                 <a
