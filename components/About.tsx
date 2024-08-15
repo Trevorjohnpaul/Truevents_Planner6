@@ -6,10 +6,10 @@ const About = () => {
   return (
     <section className='my-16 py-16' id='about'>
       <div className='flex flex-col items-center justify-center'>
-        <div className='grid grid-cols-1 md:grid-cols-2 h-auto md:h-[95vh] mx-4 md:mx-8 px-4 md:px-16 gap-4 md:gap-8 mb-8'>
+        <div className='grid grid-cols-1 md:grid-cols-2 h-auto mx-4 md:mx-8 px-4 md:px-16 gap-4 md:gap-8 mb-8'>
           <div className='relative h-[50vh] md:h-[95vh] flex justify-center items-center'>
             <Image
-              className='rounded-md z-0 h-full md:h-[90%] object-cover'
+              className='rounded-md z-0 h-full object-cover'
               src={'/assets/img16.jpeg'}
               width={684}
               height={684}
@@ -29,18 +29,18 @@ const About = () => {
               <span>We Are The Best Events Planner</span>
               <span>And Organizer In The City</span>
             </div>
-            <p className='text-sm md:text-base'>
+            <p className='text-sm md:text-base mb-12'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eligendi voluptatem neque expedita minus accusantium sed dicta similique distinctio, libero, nostrum, corporis quibusdam dolorem dolore. Et dolorum qui possimus libero!
             </p>
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
-              <div className='pb-0 pr-16 h-auto md:h-[80vh]'>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
+              <div className='pb-0 pr-16 h-auto'>
                 <div className='flex flex-col gap-8 rounded-md items-center bg-[#f8f8f6] px-16 py-16 shadow-lg'>
                   <FaTasks size={40} className='text-[#F88109]' />
                   <span className='text-4xl font-semibold'>5+</span>
                   <span className='font-semibold'>Years In Business</span>
                 </div>
               </div>
-              <div className='flex flex-col gap-4'>
+              <div className='flex flex-col gap-12 font-semibold pl-6'>
                 {['Best Quality Service', 'Innovative Solutions', 'Customer Satisfaction', 'Professional Team'].map((item, index) => (
                   <div key={index} className='flex gap-2'>
                     <FaUserFriends size={24} className='text-[#F88109]' />
@@ -51,10 +51,11 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className='experience-wrapper flex justify-center items-center'>
+
+        <div className='experience-wrapper my-16 h-[100vh}] flex justify-center items-center'>
           <div className='experience my-16 text-white text-2xl font-semibold text-center' id='Experience'>
             <div className="achievement flex flex-col items-center">
-              <FaUsers className='text-[#F88109] w-6 h-6 md:w-10 md:h-10' />
+              <FaUsers className='text-[#F88109] w-6 h-6' />
               <div className="circle">10,000+</div>
               <div className='flex flex-col text-sm'>
                 <span>Customers</span>
@@ -62,7 +63,7 @@ const About = () => {
               </div>
             </div>
             <div className="achievement flex flex-col items-center">
-              <FaTasks className='text-[#F88109] w-6 h-6 md:w-10 md:h-10' />
+              <FaTasks className='text-[#F88109] w-6 h-6' />
               <div className="circle">80,000+</div>
               <div className='flex flex-col text-sm'>
                 <span>Customers</span>
@@ -70,7 +71,7 @@ const About = () => {
               </div>
             </div>
             <div className="achievement flex flex-col items-center">
-              <FaUserFriends className='text-[#F88109] w-6 h-6 md:w-10 md:h-10' />
+              <FaUserFriends className='text-[#F88109] w-6 h-6' />
               <div className="circle">27</div>
               <div className='flex flex-col text-sm'>
                 <span>Customers</span>
@@ -78,7 +79,7 @@ const About = () => {
               </div>
             </div>
             <div className="achievement flex flex-col items-center">
-              <FaMapMarkerAlt className='text-[#F88109] w-6 h-6 md:w-10 md:h-10' />
+              <FaMapMarkerAlt className='text-[#F88109] w-6 h-6' />
               <div className="circle">27</div>
               <div className='flex flex-col text-sm'>
                 <span>Locations</span>
@@ -87,12 +88,13 @@ const About = () => {
             </div>
           </div>
         </div>
+
         <div className='flex flex-col gap-8 mt-8 px-8'>
           <div className='flex flex-col gap-4 items-center justify-center m-16'>
             <span className='text-[#F88109] text-3xl font-bold'>Our Team</span>
             <div></div>
           </div>
-          <div className='flex flex-col md:flex-row gap-8 justify-center'>
+          <div className='flex flex-col md:flex-row gap-16 justify-center'>
             {[
               { src: '/assets/img40.jpeg', name: 'Grace Nike', role: 'Manager' },
               { src: '/assets/img31.jpeg', name: 'Martin Munene', role: 'Manager' },
@@ -106,7 +108,7 @@ const About = () => {
                   height={684}
                   alt=''
                 />
-                <div className='absolute bottom-0 transform translate-y-1/2 flex flex-col gap-1 items-center bg-white px-14 py-4 rounded-md'>
+                <div className='absolute bottom-0 transform translate-y-1/2 flex flex-col gap-1 items-center bg-white px-10 py-4 rounded-md w-[200px]'>
                   <span className='text-[#F88109] font-bold'>{member.name}</span>
                   <span className='font-semibold'>{member.role}</span>
                 </div>

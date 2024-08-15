@@ -29,17 +29,17 @@ const Footer = () => {
                                 ].map(({ icon: Icon, text }, index) => (
                                     <div 
                                     key={index} 
-                                    className='flex flex-col text-[#F88109] p-4 md:p-8 sm:p-6 bg-[#020308fa] rounded-md shadow-lg items-center text-center'
+                                    className='flex flex-col text-[#F88109] text-[9px] md:text-xsm  px-2 py-16 md:px-8 md:py-16 sm:p-6 bg-[#020308fa] rounded-md shadow-lg items-center text-center'
                                     >
                                     <Icon size={24} className='mb-2' />
-                                    <span className='text-base sm:text-sm'>{text}</span>
+                                    <span className='text-base'>{text}</span>
                                     </div>
                                 ))}
                             </div>
                         </div>
                     </div>
-                    <div className='w-full px-0 mt-8 sm:mt-16'>
-                        <span className='font-semibold bg-[#2a345340] m-0 block text-center py-4 text-xs sm:text-sm'>Copyright 2024 TruEvents. All Rights Reserved</span>
+                    <div className='w-full bg-[#2a345340] px-0 mt-8 sm:mt-16'>
+                        <span className='font-semibold] block text-center py-4 text-xs sm:text-sm'>Copyright 2024 TruEvents. All Rights Reserved</span>
                     </div>
                 </div>
             </div>

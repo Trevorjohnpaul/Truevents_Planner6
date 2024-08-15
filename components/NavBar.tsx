@@ -50,7 +50,7 @@ const NavBar = () => {
     <div>
       {/* Desktop Navigation */}
       <section className='w-full bg-white bg-cover bg-center fixed hidden md:flex z-50'>
-        <div className='flex justify-between items-center w-full px-8 py-4'>
+        <div className='flex justify-between items-center w-full pr-8 py-4'>
           <div className='flex items-center gap-2'>
             <Link href='#home' className='flex cursor-pointer items-center gap-2'>
               <Image
@@ -67,7 +67,7 @@ const NavBar = () => {
               <a
                 key={section}
                 href={`#${section}`}
-                className={`navbar-link hover:text-[#FCA61F] ${activeSection === section ? 'text-[#FCA61F]' : ''}`}
+                className={`navbar-link hover:text-[#FCA61F] shadow-md ${activeSection === section ? 'text-[#FCA61F]' : ''}`}
                 onClick={() => handleLinkClick(section)}
               >
                 {section.toUpperCase()}
@@ -79,7 +79,7 @@ const NavBar = () => {
 
       {/* Mobile Navigation */}
       <section className='w-full md:hidden fixed bg-white bg-cover bg-center z-50'>
-        <div className='flex justify-between items-center px-4 py-4'>
+        <div className='flex justify-between items-center pr-4 py-4'>
           <Link href='#home' className='flex cursor-pointer items-center py-0'>
             <Image src='/assets/logo.jpeg' width={164} height={34} alt='TruEvents logo' />
           </Link>
@@ -97,7 +97,7 @@ const NavBar = () => {
                 <a
                   key={section}
                   href={`#${section}`}
-                  className={`text-16 font-semibold text-black-2 hover:text-gray-700 ${activeSection === section ? 'text-[#FCA61F]' : ''}`}
+                  className={`text-16 font-semibold text-black-2 hover:text-[#FCA61F] ${activeSection === section ? 'text-[#FCA61F]' : ''}`}
                   onClick={() => {
                     setIsOpen(false);
                     handleLinkClick(section);

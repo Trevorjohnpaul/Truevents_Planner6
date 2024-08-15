@@ -84,55 +84,55 @@ const Services = () => {
       </div>
       </div>
 
-      <div className="w-full py-8">
-  <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 px-4 md:px-8 lg:px-24 items-center">
-    <div className="w-full h-[300px] md:h-[550px] rounded-md overflow-hidden relative flex justify-center">
-      <Image
-        src={'/assets/img7.jpeg'}
-        layout='fill'
-        objectFit='cover'
-        alt=''
-      />
-    </div>
-    <div className="flex flex-col justify-center md:w-full md:h-[550px] gap-4 text-center md:text-left">
-      <span className="text-[#F88109] text-2xl md:text-3xl font-bold">
-        How It Works
-      </span>
-      <span className="text-gray-700 text-xl md:text-3xl font-semibold">
-        We Make Sure Planning & Decorations Simple
-      </span>
-      <div className="flex flex-col gap-4 md:gap-8">
-        <div className="flex flex-col gap-2">
-          <div className="flex gap-2 md:gap-4 text-[#F88109] justify-center md:justify-start">
-            <FaGlassCheers size={24} />
-            <span className="text-xl md:text-3xl font-semibold">Wedding Party</span>
+      <div className="w-full py-8 px-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 px-14 md:px-8 lg:px-24 items-center">
+          <div className="w-full h-[300px] md:h-full rounded-md overflow-hidden relative flex justify-center">
+            <Image
+              src={'/assets/img7.jpeg'}
+              layout='fill'
+              objectFit='cover'
+              alt=''
+            />
           </div>
-          <p className="text-sm md:text-base">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis quo quasi ea facere itaque nemo repudiandae.
-          </p>
-        </div>
-        <div className="flex flex-col gap-2">
-          <div className="flex gap-2 md:gap-4 text-[#F88109] justify-center md:justify-start">
-            <FaGlassCheers size={24} />
-            <span className="text-xl md:text-3xl font-semibold">Birthday Celebration</span>
+          <div className="flex flex-col justify-center md:w-full md:h-full gap-4 text-center md:text-left">
+            <span className="text-[#F88109] text-2xl md:text-3xl font-bold">
+              How It Works
+            </span>
+            <span className="text-gray-700 text-xl md:text-3xl font-semibold">
+              We Make Sure Planning & Decorations Simple
+            </span>
+            <div className="flex flex-col gap-4 md:gap-8">
+              <div className="flex flex-col gap-2">
+                <div className="flex gap-2 md:gap-4 text-[#F88109] justify-center md:justify-start">
+                  <FaGlassCheers size={24} />
+                  <span className="text-xl md:text-3xl font-semibold">Wedding Party</span>
+                </div>
+                <p className="text-sm md:text-base">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis quo quasi ea facere itaque nemo repudiandae.
+                </p>
+              </div>
+              <div className="flex flex-col gap-2">
+                <div className="flex gap-2 md:gap-4 text-[#F88109] justify-center md:justify-start">
+                  <FaGlassCheers size={24} />
+                  <span className="text-xl md:text-3xl font-semibold">Birthday Celebration</span>
+                </div>
+                <p className="text-sm md:text-base">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis quo quasi ea facere itaque nemo repudiandae.
+                </p>
+              </div>
+              <div className="flex flex-col gap-2">
+                <div className="flex gap-2 md:gap-4 text-[#F88109] justify-center md:justify-start">
+                  <FaGlassCheers size={24} />
+                  <span className="text-xl md:text-3xl font-semibold">Corporate Events</span>
+                </div>
+                <p className="text-sm md:text-base">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis quo quasi ea facere itaque nemo repudiandae.
+                </p>
+              </div>
+            </div>
           </div>
-          <p className="text-sm md:text-base">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis quo quasi ea facere itaque nemo repudiandae.
-          </p>
         </div>
-        <div className="flex flex-col gap-2">
-          <div className="flex gap-2 md:gap-4 text-[#F88109] justify-center md:justify-start">
-            <FaGlassCheers size={24} />
-            <span className="text-xl md:text-3xl font-semibold">Corporate Events</span>
-          </div>
-          <p className="text-sm md:text-base">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis quo quasi ea facere itaque nemo repudiandae.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>    
+      </div>    
       <div className='flex flex-wrap gap-4 justify-center w-full mt-8 px-4'>
         <div className='flex justify-center'>
           <Image
