@@ -67,7 +67,7 @@ const NavBar = () => {
               <a
                 key={section}
                 href={`#${section}`}
-                className={`navbar-link hover:text-[#FCA61F] shadow-md ${activeSection === section ? 'text-[#FCA61F]' : ''}`}
+                className={`navbar-link hover:text-[#FCA61F]${activeSection === section ? 'text-[#FCA61F]' : ''}`}
                 onClick={() => handleLinkClick(section)}
               >
                 {section.toUpperCase()}
@@ -88,7 +88,7 @@ const NavBar = () => {
           </button>
         </div>
         {isOpen && (
-          <nav className='fixed top-0 left-0 max-w-md h-[50vh] rounded-3xl bg-[#f8f8f6] px-4 py-8'>
+          <nav className='fixed top-0 left-0 max-w-md h-[50vh] rounded-3xl bg-white shadow-lg px-4 py-8'>
             <div className='flex flex-col gap-6'>
               <Link href='#home' className='flex cursor-pointer items-center gap-1'>
                 <Image src='/assets/logo.jpeg' width={164} height={34} alt='TruEvents logo' />

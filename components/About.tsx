@@ -33,14 +33,14 @@ const About = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eligendi voluptatem neque expedita minus accusantium sed dicta similique distinctio, libero, nostrum, corporis quibusdam dolorem dolore. Et dolorum qui possimus libero!
             </p>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
-              <div className='pb-0 pr-16 h-auto'>
-                <div className='flex flex-col gap-8 rounded-md items-center bg-[#f8f8f6] px-16 py-16 shadow-lg'>
+              <div className='pb-0 pr-16'>
+                <div className='flex flex-col h-full gap-8 rounded-md items-center bg-[#f8f8f6] px-16 py-16 shadow-lg'>
                   <FaTasks size={40} className='text-[#F88109]' />
                   <span className='text-4xl font-semibold'>5+</span>
                   <span className='font-semibold'>Years In Business</span>
                 </div>
               </div>
-              <div className='flex flex-col gap-12 font-semibold pl-6'>
+              <div className='flex flex-col md:gap-16 pl-6 h-full'>
                 {['Best Quality Service', 'Innovative Solutions', 'Customer Satisfaction', 'Professional Team'].map((item, index) => (
                   <div key={index} className='flex gap-2'>
                     <FaUserFriends size={24} className='text-[#F88109]' />
