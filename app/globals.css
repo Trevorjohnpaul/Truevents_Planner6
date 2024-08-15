@@ -98,12 +98,7 @@ code {
 }
 
 .experience {
-  @apply no-scrollbar flex flex-row gap-4 p-2 w-full max-xl:max-h-screen max-xl:overflow-y-scroll items-center justify-center h-80 mb-32;
-}
-
-
-.achievement {
-  @apply flex flex-col items-center text-center mb-16;
+  @apply no-scrollbar flex flex-row gap-16 sm:gap-4 p-2 max-xl:max-h-screen max-xl:overflow-y-scroll items-center justify-center h-80 w-full mb-32;
 }
 
 .experience-wrapper {
@@ -111,15 +106,18 @@ code {
   justify-content: center;
   align-items: center;
   width: 100%;
-  overflow: hidden;
   background-image: url('/assets/img8.jpeg');
   background-size: cover;
   background-position: center;
   padding: 0;
 }
 
+.achievement {
+  @apply flex flex-col items-center text-center mb-4;
+}
+
 .circle {
-  @apply w-24 h-24 bg-white rounded-full relative flex items-center justify-center text-2xl font-bold mb-8 text-black-1;
+  @apply w-24 h-24 my-2 bg-white rounded-full relative flex items-center justify-center text-2xl font-bold text-black-1;
   background-image: linear-gradient(to bottom, #87e6fb 0%, #ffc05c 100%);
 }
 
@@ -129,7 +127,6 @@ code {
   background-image: linear-gradient(to bottom, #87e6fb 0%, #ffc05c 100%);
   top: -8px;
   left: -8px;
-  bottom: -8px;
   right: -8px;
   position: absolute;
   z-index: -1;

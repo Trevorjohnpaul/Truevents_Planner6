@@ -54,34 +54,36 @@ const About = () => {
         <div className='experience-wrapper flex justify-center items-center'>
           <div className='experience my-16 text-white text-2xl font-semibold text-center' id='Experience'>
             <div className="achievement flex flex-col items-center">
-              <FaUsers size={40} className='text-[#F88109]' />
+              <FaUsers className='text-[#F88109] w-6 h-6 md:w-10 md:h-10' />
               <div className="circle">10,000+</div>
-              <div className='flex flex-col'>
+              <div className='flex flex-col text-sm'>
                 <span>Customers</span>
                 <span>Served</span>
               </div>
             </div>
             <div className="achievement flex flex-col items-center">
-              <FaTasks size={40} className='text-[#F88109]' />
+              <FaTasks className='text-[#F88109] w-6 h-6 md:w-10 md:h-10' />
               <div className="circle">80,000+</div>
-              <div className='flex flex-col'>
+              <div className='flex flex-col text-sm'>
                 <span>Customers</span>
                 <span>Served</span>
               </div>
             </div>
             <div className="achievement flex flex-col items-center">
-              <FaUserFriends size={40} className='text-[#F88109]' />
+              <FaUserFriends className='text-[#F88109] w-6 h-6 md:w-10 md:h-10' />
               <div className="circle">27</div>
-              <div className='flex flex-col'>
+              <div className='flex flex-col text-sm'>
                 <span>Customers</span>
                 <span>Served</span>
               </div>
             </div>
             <div className="achievement flex flex-col items-center">
-              <FaMapMarkerAlt size={40} className='text-[#F88109]' />
+              <FaMapMarkerAlt className='text-[#F88109] w-6 h-6 md:w-10 md:h-10' />
               <div className="circle">27</div>
-              <span>Locations</span>
-              <span>Serviced</span>
+              <div className='flex flex-col text-sm'>
+                <span>Locations</span>
+                <span>Serviced</span>
+              </div>
             </div>
           </div>
         </div>
