@@ -4,8 +4,8 @@ import { FaGlassCheers } from 'react-icons/fa';
 
 const Services = () => {
   return (
-    <section className='my-16 flex flex-col justify-center items-center w-full' id="services">
-      <div className='px-8 py-24 flex flex-col gap-4 justify-center items-center w-full'>
+    <section className='my-16 py-24 flex flex-col justify-center items-center w-full' id="services">
+      <div className='px-8 pt-24 py-24 flex flex-col gap-4 justify-center items-center w-full'>
         <span className='text-[#F88109] text-4xl font-bold'>Our Services</span>
         <span className='text-gray-700 text-3xl mb-8 font-semibold text-center'>We Offer The Best Services In The Country</span>
         <div className='flex flex-col gap-32 w-full px-4 lg:px-24'>

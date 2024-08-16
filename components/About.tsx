@@ -5,7 +5,7 @@ import { FaUsers, FaTasks, FaUserFriends, FaMapMarkerAlt } from 'react-icons/fa'
 const About = () => {
   return (
     <section className='my-16 py-16' id='about'>
-      <div className='flex flex-col items-center justify-center'>
+      <div className='flex flex-col pt-24 items-center justify-center'>
         <div className='grid grid-cols-1 md:grid-cols-2 h-auto mx-4 md:mx-8 px-4 md:px-16 gap-4 md:gap-8 mb-8'>
           <div className='relative h-[50vh] md:h-[95vh] flex justify-center items-center'>
             <Image

@@ -24,7 +24,7 @@ const Hero = () => {
 
   return (
     <section
-      className="start flex flex-col h-screen justify-center items-center text-white px-4 md:px-8 mb-16"
+      className="start flex flex-col h-screen justify-center items-center text-white px-4 md:px-8 mb-8"
       id="home"
       style={{
         backgroundImage: `url(${images[currentImageIndex]})`,

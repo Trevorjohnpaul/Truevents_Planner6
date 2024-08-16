@@ -6,7 +6,7 @@ import { FaPhone, FaEnvelope } from 'react-icons/fa';
 const Footer = () => {
   return (
     <div>
-        <section className='footer text-white mt-24'>
+        <section className='footer pt-16 text-white mt-24'>
             <div className='justify-center'>
                 <div className='flex flex-col gap-8 items-center justify-between'>
                     <div className='flex flex-col gap-4 px-4 sm:px-8 w-full'>
@@ -38,24 +38,24 @@ const Footer = () => {
                                 </div>
                             </div>
                             {/* Contact Methods */}
-                            <div className='flex flex-col sm:grid sm:grid-cols-2 gap-8 sm:gap-8 px-0 mt-4 sm:mt-0'>
+                            <div className='flex flex-col sm:grid sm:grid-cols-2 gap-8 sm:gap-8 mt-4 sm:mt-0'>
                                 {[
                                     { icon: FaPhone, text: 'Phone: +254742256396' },
                                     { icon: FaEnvelope, text: 'Email: dokeyo390@gmail.com' }
                                 ].map(({ icon: Icon, text }, index) => (
                                     <div 
                                         key={index} 
-                                        className='flex flex-col text-[#F88109] px-0 py-16 md:px-12 md:py-16 bg-[#020308fa] rounded-md shadow-lg items-center text-center'
+                                        className='flex flex-col text-[12px] md:text-sm text-[#F88109] px-16 py-8 md:px-12 md:py-16 bg-[#020308fa] rounded-md shadow-lg items-center text-center'
                                     >
-                                        <Icon size={24} className='mb-2' />
-                                        <span className='text-base text-[10px] md:text-sm'>{text}</span>
+                                        <Icon size={20} className='mb-2' />
+                                        <span>{text}</span>
                                     </div>
                                 ))}
                             </div>
                         </div>
                     </div>
                     {/* Footer Copyright */}
-                    <div className='w-full md:w-full bg-[#2a345340] px-0 mt-8 sm:mt-16 justify-center items-center'>
+                    <div className='w-full md:w-full bg-[#2a345340] bg-cover px-0 mt-8 sm:mt-16 items-center'>
                         <span className='font-semibold block text-center py-4 text-xs sm:text-sm'>
                             Copyright 2024 TruEvents. All Rights Reserved
                         </span>

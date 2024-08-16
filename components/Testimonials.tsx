@@ -33,8 +33,8 @@ const Testimonials = () => {
   const { image, quote, name } = testimonialsData[currentTestimonial];
 
   return (
-    <section className='min-h-screen text-white mt-16 py-16 md:pt-16 sm:pt-16' id="testimonials">
-      <div className='testimonial1 flex flex-col items-center justify-center py-8 px-8 mb-16'>
+    <section className='h-auto text-white py-16 md:pt-16 sm:pt-16' id="testimonials">
+      <div className='testimonial1 pt-24 flex flex-col items-center justify-center py-8 px-8 mb-16'>
         <div className='flex flex-col gap-4 items-center justify-center mb-16'>
           <span className='text-[#F88109] text-4xl font-bold'>Testimonials</span>
           <span className='text-3xl font-semibold'>What Our Clients Say About Us</span>
@@ -50,12 +50,12 @@ const Testimonials = () => {
               alt=''
               style={{ marginBottom: '-65px' }}
             />
-            <div className='flex flex-col items-center justify-center -mb-24 p-4 text-gray-600 bg-white shadow-lg md:shadow-lg rounded-md w-full max-w-xs md:max-w-md lg:max-w-lg h-80 transition-all duration-3000 ease-in-out relative'>
+            <div className='flex flex-col items-center justify-center md:-mb-24 lg:-mb-24 p-4 text-gray-600 bg-white shadow-md rounded-md w-full min-h-[320px] transition-all duration-3000 ease-in-out relative'>
               <span className='absolute top-4 left-4 text-6xl'>“</span>
               <p className='max-w-sm text-center'>
                 {quote}
               </p>
-              <span className='absolute bottom-4 right-4 text-[#F88109] text-2xl'>{name}</span>
+              <span className='absolute md:bottom-4 bottom-2 right-4 text-[#F88109] text-2xl'>{name}</span>
             </div>
           </div>
         </div>

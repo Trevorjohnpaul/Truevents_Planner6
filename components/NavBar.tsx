@@ -10,16 +10,18 @@ const NavBar = () => {
   const sections: string[] = ['home', 'about', 'services', 'gallery', 'testimonials'];
 
   const handleLinkClick = (section: string) => {
-  const element = document.getElementById(section);
+    const element = document.getElementById(section);
     if (element) {
       const navbarHeight = document.querySelector('section.fixed')?.clientHeight || 0;
-      const elementPosition = element.getBoundingClientRect().top;
-      const offsetPosition = elementPosition + window.scrollY - navbarHeight - 380;
+      const buffer = 20; // A small buffer to ensure the section title is visible
+      const elementPosition = element.getBoundingClientRect().top + window.scrollY;
+      const offsetPosition = elementPosition + window.scrollY- navbarHeight - buffer;
 
       window.scrollTo({
         top: offsetPosition,
-        behavior: 'smooth'
+        behavior: 'smooth',
       });
+
       setActiveSection(section);
     }
   };
@@ -58,7 +60,6 @@ const NavBar = () => {
                 width={250}
                 height={84}
                 alt='TruEvents logo'
-                // className='size-[100px] max-xl:size-24'
               />
             </Link>
           </div>
@@ -67,7 +68,7 @@ const NavBar = () => {
               <a
                 key={section}
                 href={`#${section}`}
-                className={`navbar-link hover:text-[#FCA61F]${activeSection === section ? 'text-[#FCA61F]' : ''}`}
+                className={`navbar-link hover:text-[#FCA61F]${activeSection === section ? ' text-[#FCA61F]' : ''}`}
                 onClick={() => handleLinkClick(section)}
               >
                 {section.toUpperCase()}
