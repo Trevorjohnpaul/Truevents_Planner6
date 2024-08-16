@@ -40,7 +40,7 @@ const About = () => {
                   <span className='font-semibold'>Years In Business</span>
                 </div>
               </div>
-              <div className='flex flex-col md:gap-16 pl-6 h-full'>
+              <div className='flex flex-col gap-6 md:gap-16 pl-6 h-full'>
                 {['Best Quality Service', 'Innovative Solutions', 'Customer Satisfaction', 'Professional Team'].map((item, index) => (
                   <div key={index} className='flex gap-2'>
                     <FaUserFriends size={24} className='text-[#F88109]' />
