@@ -4,6 +4,9 @@ import React from 'react'
 import { FaPhone, FaEnvelope } from 'react-icons/fa';
 
 const Footer = () => {
+
+    const currentYear = new Date().getFullYear();
+
   return (
     <div>
         <section className='footer pt-16 text-white mt-24'>
@@ -57,7 +60,7 @@ const Footer = () => {
                     {/* Footer Copyright */}
                     <div className='w-full md:w-full bg-[#2a345340] bg-cover px-0 mt-8 sm:mt-16 items-center'>
                         <span className='font-semibold block text-center py-4 text-xs sm:text-sm'>
-                            Copyright 2024 TruEvents. All Rights Reserved
+                            Copyright {currentYear} TruEvents. All Rights Reserved
                         </span>
                     </div>
                 </div>

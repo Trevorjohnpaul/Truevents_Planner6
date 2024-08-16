@@ -52,36 +52,36 @@ const About = () => {
           </div>
         </div>
 
-        <div className='experience-wrapper my-16 h-[100vh}] flex justify-center items-center'>
-          <div className='experience my-16 text-white text-2xl font-semibold text-center' id='Experience'>
+        <div className='experience-wrapper my-16 h-auto flex'>
+          <div className='experience text-white font-semibold text-center'>
             <div className="achievement flex flex-col items-center">
-              <FaUsers className='text-[#F88109] w-6 h-6' />
+              <FaUsers className='text-[#F88109] w-8 h-8 md:w-6 md:h-6' />
               <div className="circle">10,000+</div>
-              <div className='flex flex-col text-sm'>
+              <div className='flex flex-col text-[18px] md:text-sm'>
                 <span>Customers</span>
                 <span>Served</span>
               </div>
             </div>
             <div className="achievement flex flex-col items-center">
-              <FaTasks className='text-[#F88109] w-6 h-6' />
+              <FaTasks className='text-[#F88109] w-8 h-8 md:w-6 md:h-6' />
               <div className="circle">80,000+</div>
-              <div className='flex flex-col text-sm'>
+              <div className='flex flex-col text-[18px] md:text-sm'>
                 <span>Customers</span>
                 <span>Served</span>
               </div>
             </div>
             <div className="achievement flex flex-col items-center">
-              <FaUserFriends className='text-[#F88109] w-6 h-6' />
+              <FaUserFriends className='text-[#F88109] w-8 h-8 md:w-6 md:h-6' />
               <div className="circle">27</div>
-              <div className='flex flex-col text-sm'>
+              <div className='flex flex-col text-[18px] md:text-sm'>
                 <span>Customers</span>
                 <span>Served</span>
               </div>
             </div>
             <div className="achievement flex flex-col items-center">
-              <FaMapMarkerAlt className='text-[#F88109] w-6 h-6' />
+              <FaMapMarkerAlt className='text-[#F88109] w-8 h-8 md:w-6 md:h-6' />
               <div className="circle">27</div>
-              <div className='flex flex-col text-sm'>
+              <div className='flex flex-col text-[18px] md:text-sm'>
                 <span>Locations</span>
                 <span>Serviced</span>
               </div>

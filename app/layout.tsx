@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: "TruEvents",
   description: "A mordern event platform for everyone",
   icons: {
-    icon: '/assets/logo.jpeg'
+    icon: '/assets/browserLogo.png'
   }
 };
 
