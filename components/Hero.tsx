@@ -36,11 +36,11 @@ const Hero = () => {
       <div className="w-full flex flex-col gap-4 md:gap-8">
         <div className="max-w-xs md:max-w-md flex flex-col gap-4 md:gap-12 md:mt-16 text-white">
           <div className="flex flex-col font-semibold text-2xl md:text-3xl">
-            <span className="inline-block">Hello Fam Lets Celebrate</span>
-            <span>Your Events With True Vibes</span>
+            <span className="inline-block">Hello Fam ,Let's Celebrate!</span>
+            <span>Bring Your Events To Life With True Vibes</span>
           </div>
           <p className="text-sm md:text-base">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti voluptates, modi, illum accusantium quis voluptas eum ad inventore aliquam, vel quos vitae. Ullam itaque ex officiis dicta modi expedita quam?
+            At True Events Management Limited, we believe every celebration deserves the perfect vibe. Whether it's an intimate gathering or a grand affair, we infuse every event with creativity, energy, and a touch of elegance. Let us handle the details while you enjoy the moment because with us, your events are more than just occasions; they’re unforgettable experiences.
           </p>
           <a href='#about'>
             <button className="button self-start text-sm md:text-xl rounded-md py-2 md:py-4 px-4 md:px-8 bg-[#F88109]">
