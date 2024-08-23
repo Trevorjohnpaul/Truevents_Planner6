@@ -17,7 +17,7 @@ const Footer = () => {
                             {/* Contact Information */}
                             <div className='flex flex-col gap-4'>
                                 <span className='title text-[#F88109] text-2xl sm:text-3xl font-bold'>
-                                    Get In Touch
+                                    Get In 
                                 </span>
                                 <span className='max-w-sm text-sm sm:text-base'>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, officia quae. Optio nisi est cum voluptatum nesciunt, magni asperiores accusamus.
