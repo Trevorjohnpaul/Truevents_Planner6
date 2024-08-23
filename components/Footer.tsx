@@ -20,7 +20,7 @@ const Footer = () => {
                                     Get In Touch
                                 </span>
                                 <span className='max-w-sm text-sm sm:text-base'>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, officia quae. Optio nisi est cum voluptatum nesciunt, magni asperiores accusamus.
+                                    Let's make your event a master piece packed with colour and opulence.Contact us for more details on all of our social media platforms.
                                 </span>
                                 <div className='flex gap-2 justify-center sm:justify-start'>
                                     {['instagram', 'facebook', 'tiktok', 'linkedIn', 'youtube'].map((social) => (
