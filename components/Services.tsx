@@ -25,10 +25,10 @@ const Services = () => {
             >
               <div className='flex gap-4 text-[#F88109] justify-center md:justify-start'>
                 <FaGlassCheers size={34} />
-                <span className='text-3xl font-semibold'>Wedding Party</span>
+                <span className='text-3xl font-semibold'>Event Decor</span>
               </div>
               <p className='max-w-md text-center md:text-left'>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste voluptates corrupti blanditiis. Distinctio perspiciatis culpa iure mollitia. Labore rem esse, iure minus at qui optio, id laudantium hic officiis, incidunt sapiente earum a molestiae maiores quis delectus est alias quas natus perferendis? Nemo, laboriosam in.
+                Transforming venues into breathtaking settings.
               </p>
             </div>
           </div>
@@ -40,10 +40,11 @@ const Services = () => {
             >
               <div className='flex gap-4 text-[#F88109] justify-center md:justify-start'>
                 <FaGlassCheers size={34} />
-                <span className='text-3xl font-semibold'>Wedding Party</span>
+                <span className='text-3xl font-semibold'>Event Planning</span>
               </div>
               <p className='max-w-md text-center md:text-left'>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste voluptates corrupti blanditiis. Distinctio perspiciatis culpa iure mollitia. Labore rem esse, iure minus at qui optio, id laudantium hic officiis, incidunt sapiente earum a molestiae maiores quis delectus est alias quas natus perferendis? Nemo, laboriosam in.
+              Comprehensive planning and coordination from start to finish.
+
               </p>
             </div>
             <div className='flex justify-center relative z-10'>
@@ -73,10 +74,11 @@ const Services = () => {
             >
               <div className='flex gap-4 text-[#F88109] justify-center md:justify-start'>
                 <FaGlassCheers size={34} />
-                <span className='text-3xl font-semibold'>Wedding Party</span>
+                <span className='text-3xl font-semibold'>Theme Design</span>
               </div>
               <p className='max-w-md text-center md:text-left'>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste voluptates corrupti blanditiis. Distinctio perspiciatis culpa iure mollitia. Labore rem esse, iure minus at qui optio, id laudantium hic officiis, incidunt sapiente earum a molestiae maiores quis delectus est alias quas natus perferendis? Nemo, laboriosam in.
+                Crafting unique and personalized themes for any occasion.
+
               </p>
             </div>
           </div>
@@ -99,34 +101,36 @@ const Services = () => {
               How It Works
             </span>
             <span className="text-gray-700 text-xl md:text-3xl font-semibold">
-              We Make Sure Planning & Decorations Simple
+              How We Make Your PLans Come To Life Simple
             </span>
             <div className="flex flex-col gap-4 md:gap-8">
               <div className="flex flex-col gap-2">
                 <div className="flex gap-2 md:gap-4 text-[#F88109] justify-center md:justify-start">
                   <FaGlassCheers size={24} />
-                  <span className="text-xl md:text-3xl font-semibold">Wedding Party</span>
+                  <span className="text-xl md:text-3xl font-semibold">Consultation</span>
                 </div>
                 <p className="text-sm md:text-base">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis quo quasi ea facere itaque nemo repudiandae.
+                We start by understanding your vision, needs, and preferences. This is where we gather all the details to tailor our services specifically to your event.
+                  
                 </p>
               </div>
               <div className="flex flex-col gap-2">
                 <div className="flex gap-2 md:gap-4 text-[#F88109] justify-center md:justify-start">
                   <FaGlassCheers size={24} />
-                  <span className="text-xl md:text-3xl font-semibold">Birthday Celebration</span>
+                  <span className="text-xl md:text-3xl font-semibold">Design & Planning</span>
                 </div>
                 <p className="text-sm md:text-base">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis quo quasi ea facere itaque nemo repudiandae.
+                  Our creative team designs a personalized plan, including theme, decor, and layout. We work closely with you to ensure every detail aligns with your vision.
+
                 </p>
               </div>
               <div className="flex flex-col gap-2">
                 <div className="flex gap-2 md:gap-4 text-[#F88109] justify-center md:justify-start">
                   <FaGlassCheers size={24} />
-                  <span className="text-xl md:text-3xl font-semibold">Corporate Events</span>
+                  <span className="text-xl md:text-3xl font-semibold">Execution</span>
                 </div>
                 <p className="text-sm md:text-base">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis quo quasi ea facere itaque nemo repudiandae.
+                  On the day of the event, our team handles everything—from setting up the decor to coordinating the logistics—so you can relax and enjoy you
                 </p>
               </div>
             </div>
