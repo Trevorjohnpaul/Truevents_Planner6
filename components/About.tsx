@@ -30,7 +30,7 @@ const About = () => {
               <span>And Organizer In The City</span>
             </div>
             <p className='text-sm md:text-base mb-12'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eligendi voluptatem neque expedita minus accusantium sed dicta similique distinctio, libero, nostrum, corporis quibusdam dolorem dolore. Et dolorum qui possimus libero!
+              We pride ourselves on being the premier event decorators and planners in the city. Our passion lies in transforming ordinary spaces into extraordinary experiences. With a keen eye for detail and a commitment to excellence, we ensure every event we touch becomes a memorable celebration. Whether it's a corporate function, wedding, or private party, our team of experts brings creativity, professionalism, and a personalized touch to every project. Trust us to make your vision come to life.
             </p>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
               <div className='pb-0 pr-16'>
